@@ -175,8 +175,13 @@ namespace tpIpfTool {
 					lstFileTab.Clear();
 					ExPrint("ファイル展開開始", sw);
 					ExPrint("File:"+filePath, sw);
-					string tgtDir = Directory.GetCurrentDirectory()+"/"+Path.GetFileName(filePath)+"_e"+DateTime.Now.ToString("yyMMddhhmmss");
-					Directory.CreateDirectory(tgtDir);
+					//string tgtDir = Directory.GetCurrentDirectory()+"/"+Path.GetFileName(filePath)+"_e"+DateTime.Now.ToString("yyMMddhhmmss");
+					string tgtDir = Directory.GetCurrentDirectory()+"/extract";
+					if (!Directory.Exists(tgtDir))
+					{
+						Directory.CreateDirectory(tgtDir);
+					}
+
 					//sw = new StreamWriter(Path.Combine(tgtDir, "log.txt"), true);
 					int sucCnt = 0;
 					int errCnt = 0;

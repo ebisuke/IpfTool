@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0294b138-a78a-48a5-a359-a2d85b663165" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.tpIpfToolCmd/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.tpIpfToolCmd/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.tpIpfToolCmd/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.tpIpfToolCmd/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.tpIpfToolCmd/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.tpIpfToolCmd/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.tpIpfToolCmd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.tpIpfToolCmd/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpIpfToolCmd/IpfPack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tpIpfToolCmd/IpfPack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tpIpfToolCmd/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tpIpfToolCmd/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +20,8 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/.idea/.idea.tpIpfTool/.idea/.gitignore" />
+      <option value="$PROJECT_DIR$/tpIpfToolCmd/Program.cs" />
+      <option value="$PROJECT_DIR$/tpIpfToolCmd/IpfPack.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uC3KdpwbqIocjtkAFtetatlRt3" />
@@ -32,6 +31,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34975636" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -85,14 +86,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624155683714</updated>
-      <workItem from="1624155697424" duration="453000" />
+      <workItem from="1624155697424" duration="640000" />
+      <workItem from="1624156595387" duration="1571000" />
     </task>
+    <task id="LOCAL-00001" summary="create cmdunipf">
+      <created>1624156168278</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624156168279</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -104,8 +114,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="create cmdunipf" />
+    <option name="LAST_COMMIT_MESSAGE" value="create cmdunipf" />
   </component>
 </project>

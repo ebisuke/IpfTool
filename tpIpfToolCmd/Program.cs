@@ -8,7 +8,7 @@ namespace tpIpfToolCmd
     {
         static void Main(string[] args)
         {
-            if (args.Length <= 1)
+            if (args.Length <= 0)
             {
                 Console.WriteLine("Need more arguments.");
                 return;
@@ -17,7 +17,7 @@ namespace tpIpfToolCmd
             {
                 Console.WriteLine(s);
             });
-            pck.ExtIpf(args.Skip(1).ToArray());
+            pck.ExtIpf(args.Skip(0).ToArray());
         }
     }
 }
